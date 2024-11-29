@@ -13,7 +13,15 @@ Document management.
 
 ## Authentication
 
-TODO: OIDC with Keycloak
+### Keycloak setup
+
+Create an OIDC client named `paperless`
+
+Name | Value
+---- | -----
+Root URL | `https://paperless.yourDomain`
+Redirect URIs | `/*`
+Authentication flow | Enable: `Standard flow`<br>`Direct access grants`
 
 <!-- ## Notifications
 
