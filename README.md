@@ -13,9 +13,6 @@ Document management.
 
 ## Authentication
 
-Mealie uses OIDC with Keycloak:
-[Ref](https://docs.mealie.io/documentation/getting-started/authentication/oidc/)
-
 ### Keycloak setup
 
 Create an OIDC client named `paperless`
